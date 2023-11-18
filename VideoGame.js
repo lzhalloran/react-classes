@@ -12,6 +12,10 @@ class VideoGame extends Media {
   }
 }
 
-let someVideoGame = new VideoGame("Runescape", "PC", 4);
-console.log(someVideoGame.getVideoGame());
-console.log(Media.count);
+// let someVideoGame = new VideoGame("Runescape", "PC", 4);
+// console.log(someVideoGame.getVideoGame());
+// console.log(Media.count);
+
+module.exports = {
+    VideoGame
+}
